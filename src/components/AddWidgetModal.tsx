@@ -20,7 +20,7 @@ export const AddWidgetModal: React.FC<AddWidgetModalProps> = ({
   onClose,
   defaultCategoryId,
 }) => {
-  const { categories, availableWidgets, toggleWidgetInCategory, isWidgetInCategory, addCustomWidget } = useDashboard();
+  const { availableWidgets, toggleWidgetInCategory, isWidgetInCategory, addCustomWidget } = useDashboard();
   const [activeTab, setActiveTab] = useState(defaultCategoryId || 'cspm-executive');
   const [searchQuery, setSearchQuery] = useState('');
   const [customWidgetName, setCustomWidgetName] = useState('');

@@ -5,8 +5,8 @@ import dashboardData from '../data/dashboardData.json';
 const DashboardContext = createContext<DashboardContextType | undefined>(undefined);
 
 export const DashboardProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [categories, setCategories] = useState<Category[]>(dashboardData.categories);
-  const [availableWidgets] = useState<Widget[]>(dashboardData.availableWidgets);
+  const [categories, setCategories] = useState<Category[]>(dashboardData.categories as Category[]);
+  const [availableWidgets] = useState<Widget[]>(dashboardData.availableWidgets as Widget[]);
 
   const addWidget = useCallback((categoryId: string, widget: Widget) => {
     setCategories((prev) =>
