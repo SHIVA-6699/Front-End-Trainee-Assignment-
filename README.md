@@ -2,6 +2,12 @@
 
 A beautiful, modern dashboard application built with React, TypeScript, and Tailwind CSS. This application allows users to dynamically add, remove, and manage widgets across different dashboard categories.
 
+## 🔗 Live Demo
+
+**Live Site:** [https://accuknox-frontend-trainee.netlify.app/](https://accuknox-frontend-trainee.netlify.app/)
+
+**GitHub Repository:** [https://github.com/SHIVA-6699/Front-End-Trainee-Assignment-](https://github.com/SHIVA-6699/Front-End-Trainee-Assignment-)
+
 ## Features
 
 ✨ **Key Features:**
